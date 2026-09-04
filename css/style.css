@@ -1,0 +1,520 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+
+/* =====================
+   NAVBAR
+===================== */
+
+.navbar {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 20px 8%;
+
+}
+
+
+.logo {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+.nav-links {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+
+}
+
+
+.nav-links a {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+
+.language {
+
+    display: flex;
+
+    gap: 8px;
+
+}
+
+
+.language button {
+
+    padding: 8px 12px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+.language .active {
+
+    font-weight: bold;
+
+}
+
+
+/* =====================
+   HERO SECTION
+===================== */
+
+.hero {
+
+    min-height: 80vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 60px 10%;
+
+    gap: 50px;
+
+}
+
+
+.hero-content {
+
+    flex: 1;
+
+}
+
+
+.hero-image {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+.hero-image img {
+
+    width: 350px;
+
+    max-width: 100%;
+
+    border-radius: 50%;
+
+}
+
+
+.hello {
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 60px;
+
+}
+
+
+.hero h2 {
+
+    margin-top: 15px;
+
+}
+
+
+.description {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+}
+
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 30px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.btn {
+
+    padding: 12px 20px;
+
+    text-decoration: none;
+
+    border: 1px solid black;
+
+}
+/*section*/
+.skills-section{
+    padding: 80px 10% ;
+}
+.skills-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.skills-column{
+    flex: 1;
+    padding: 30px;
+    border: 1px solid black;
+}
+.skills-column h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.skills-column ul{
+    list-style: none;
+}
+.skills-column li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.skills-column img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* A propos section */
+.about-section{
+    padding: 80px 10%;
+}
+.about-content{
+    max-width: 800px;
+    margin: auto;
+}
+.about-content h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.about-content .btn {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/*mes project*/
+.project-content {
+    display: flex;
+    gap: 30px;
+}
+/* =====================
+   PROJECTS SECTION
+===================== */
+
+.projects {
+    padding: 80px 10%;
+}
+
+
+.projects h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+
+.project-content {
+    display: flex;
+    gap: 30px;
+}
+
+
+.card {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+
+.card p {
+    margin-bottom: 20px;
+}
+
+
+.technologies {
+    font-weight: bold;
+}
+
+
+.card .btn {
+    display: inline-block;
+}
+
+/*Formation*/
+/*Formatio*/
+.formation {
+    padding: 80px 10%;
+}
+
+.formation h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.formation-container {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+}
+.formation-container::before{
+    content:"";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: black;
+}
+
+.formation-item {
+    position: relative;
+    width: 45%;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.formation-item:nth-child(odd) {
+    margin-right: auto;
+}
+.formation-item:nth-child(even) {
+    margin-left: auto;
+}
+.formation-item::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    border: 3px solid white;
+}
+.formation-item:nth-child(odd)::before {
+    right: -39px;
+}
+.formation-item:nth-child(even)::before {
+    left: -39px;
+}
+.formation-year{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.formation-item h3{
+    margin-bottom: 10px;
+}
+.formation-item p{
+    margin-bottom: 15px;
+}
+.certificate{
+    font-weight: bold;
+}
+/*form secton*/
+.form{
+    padding: 50px 10%;
+    margin: 40px 10%;
+}
+.form h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.form > p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form from{
+    max-width: 600px;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*mobile verstio*/
+@media screen and (max-width: 768PX){
+    /*navbar*/
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    /* hero section */
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+    .hero-content{
+        order: 2;
+    }
+    .hero-image{
+        order: 1;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero h2{
+        font-size: 24px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    /*photo*/
+    .hero-imge img{
+        width: 250px;
+    }
+    /*button*/
+    .hero-buttons{
+        justify-content: center;
+    }
+    /* competance*/
+    .skills-container{
+        flex-direction: column;
+    }
+    .skills-section{
+        padding: 50px 20px;
+    }
+    /* a propose reponsive*/
+    .about-section{
+        padding: 50px 20px;
+    }
+    .about-content{
+        font-size: 30px ;
+    }
+    .about-content p{
+        font-size: 16px ;
+        line-height: 1.6;
+    }
+
+    /*projest*/
+    .project-content{
+        flex-direction: column;
+    }
+    /*formation*/
+    .formation {
+        padding: 50px 20px;
+    }
+
+    .formation h2 {
+        font-size: 30px;
+    }
+
+    .formation-container {
+        padding-left: 30px;
+    }
+
+    /* Move the timeline to the left */
+    .formation-container::before {
+        left: 10px;
+    }
+
+    /* All formations use the same side */
+    .formation-item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .formation-item:nth-child(odd),
+    .formation-item:nth-child(even) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* All circles stay on the timeline */
+    .formation-item:nth-child(odd)::before,
+    .formation-item:nth-child(even)::before {
+        left: -29px;
+        right: auto;
+    }
+
+}
