@@ -203,11 +203,18 @@ body {
     justify-content: space-between;
     gap: 30px;
 }
-.skills-column{
+.skills-column {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+/*.skills-column{
     flex: 1;
     padding: 30px;
     border: 1px solid black;
-}
+}*/
 .skills-column h3{
     text-align: center;
     margin-bottom: 25px;
@@ -225,6 +232,7 @@ body {
     width: 40px;
     height: 40px;
     object-fit: contain;
+    
 }
 
 /* A propos section */
