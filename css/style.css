@@ -209,6 +209,7 @@ body {
     background-color: #f8f9fa;
     padding: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
 }
 /*.skills-column{
     flex: 1;
@@ -224,14 +225,18 @@ body {
 }
 .skills-column li{
     display: flex;
+    flex-direction: column;
+    gap: 8px;
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
+
 }
-.skills-column img{
-    width: 40px;
-    height: 40px;
+.skills-column li img{
+    width: 50px;
+    height: 50px;
     object-fit: contain;
+    border-radius: 8px;
     
 }
 
