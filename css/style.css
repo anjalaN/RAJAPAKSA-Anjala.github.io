@@ -416,6 +416,7 @@ body {
     margin-bottom: 30px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: #F8F9FA;
 }
 .formation-item:nth-child(odd) {
     margin-right: auto;
