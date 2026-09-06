@@ -266,6 +266,7 @@ body {
 /* A propos section */
 .about-section{
     padding: 80px 10%;
+    background-color: #ddd;
 }
 .about-content{
     max-width: 800px;
@@ -644,10 +645,7 @@ body {
     .project-content{
         flex-direction: column;
     }
-    /*experiance section
-     .experience-container {
-        flex-direction: column;
-    }*/
+    
     /* EXPERIENCE SECTION */
 
 .experience-section {
