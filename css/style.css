@@ -307,14 +307,12 @@ body {
 .project-content {
     display: flex;
     gap: 30px;
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    
 }
 
 
 .card {
+    .card {
     flex: 1;
     padding: 30px;
     border: 1px solid #ddd;
@@ -322,6 +320,7 @@ body {
     background-color: #f8f9fa;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
+
 
 .card p {
     margin-bottom: 20px;
