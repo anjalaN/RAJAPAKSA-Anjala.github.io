@@ -181,12 +181,9 @@ body {
 
 
 .btn {
-
-    padding: 12px 20px;
-
-    text-decoration: none;
-
-    border: 1px solid black;
+ padding: 12px 20px;
+ text-decoration: none;
+ border: 1px solid black;
 
 }
 /*section*/
@@ -746,6 +743,5 @@ body {
  .footer-container {
         flex-direction: column;
         text-align: center;
-    }
-
+  }
 }
