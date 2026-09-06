@@ -519,7 +519,68 @@ body {
 
 .contact-map iframe {
     border-radius: 8px;
+}/*end form*/
+
+/* FOOTER SECTION */
+
+.footer {
+    padding: 50px 10% 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
 }
+
+.footer-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-col h3 {
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    line-height: 1.6;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col li {
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-col a:hover {
+    color: blue;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.copyright p {
+    font-size: 14px;
+}
+
+
+
+
+
+
 /*mobile verstio*/
 @media screen and (max-width: 768PX){
     /*navbar*/
@@ -680,6 +741,11 @@ body {
     /*FORM*/
      .contact-container {
         flex-direction: column;
+    }
+/*footer reponsive*/
+ .footer-container {
+        flex-direction: column;
+        text-align: center;
     }
 
 }
