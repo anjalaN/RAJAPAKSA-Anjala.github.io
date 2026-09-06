@@ -690,5 +690,10 @@ body {
  .footer-container {
         flex-direction: column;
         text-align: center;
+
   }
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+}
 }
