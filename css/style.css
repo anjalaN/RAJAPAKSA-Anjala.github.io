@@ -266,7 +266,7 @@ body {
 /* Description */
 .card p {
     margin-bottom: 20px;
-    text-align: center;
+    text-align: justify;
 }
 .card h3{
     color: violet;
