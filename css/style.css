@@ -294,6 +294,7 @@ body {
 .experience-section h2 {
     text-align: center;
     margin-bottom: 40px;
+    color: blue;
 }
 
 .experience-container {
@@ -322,14 +323,14 @@ body {
 .experience-card h4 {
     margin-bottom: 8px;
     text-align: center;
-    color: blue;
+    color: vviolet;
 }
 
 .experience-date {
     margin-bottom: 15px;
     font-weight: bold;
     text-align: center;
-    color: blue;
+    color: violet;
     
 }
 
