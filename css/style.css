@@ -236,13 +236,11 @@ body {
     margin-top: 10px;
 }
 
-
 /* PROJECTS SECTION */
 
 .projects {
     padding: 80px 10%;
 }
-
 
 .projects h2 {
     text-align: center;
@@ -250,11 +248,9 @@ body {
     margin-bottom: 50px;
 }
 
-
 .project-content {
     display: flex;
     gap: 30px;
-    
 }
 
 .card {
@@ -266,21 +262,24 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-
+/* Description */
 .card p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
-
+/* Technologies */
 .technologies {
     font-weight: bold;
+    text-align: center;
 }
 
-
+/* Bouton */
 .card .btn {
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
 }
-
 /* EXPERIENCE SECTION */
 
 .experience-section {
