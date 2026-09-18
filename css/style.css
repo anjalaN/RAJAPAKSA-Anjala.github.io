@@ -301,6 +301,7 @@ body {
     gap: 25px;
     max-width: 1100px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .experience-card {
