@@ -288,12 +288,12 @@ body {
     text-align: center;
 }
 
- /*Bouton 
+ /*Bouton */
 .card .btn {
     display: block;
     width: fit-content;
     margin: 20px auto 0;
-}*/
+}
 
 
 .card .btn {
