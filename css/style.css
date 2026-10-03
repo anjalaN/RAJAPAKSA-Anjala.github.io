@@ -256,11 +256,20 @@ body {
 
 .card {
     flex: 1;
-    padding: 30px;
+    padding: 25px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #f8f9fa;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 /* Description */
@@ -270,6 +279,7 @@ body {
 }
 .card h3{
     color: violet;
+    margin-bottom: 20px;
 }
 
 /* Technologies */
@@ -278,14 +288,18 @@ body {
     text-align: center;
 }
 
- Bouton 
+ /*Bouton 
 .card .btn {
     display: block;
     width: fit-content;
     margin: 20px auto 0;
+}*/
+
+
+.card .btn {
+    display: inline-block;
+    margin-top: 10px;
 }
-
-
 /* EXPERIENCE SECTION */
 
 .experience-section {
