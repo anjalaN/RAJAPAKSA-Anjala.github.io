@@ -407,6 +407,39 @@ body {
     gap: 10px;
 }
 
+.experience-content {
+    padding: 30px;
+}
+
+.experience-content h3,
+.experience-content h4,
+.experience-content .experience-date,
+.experience-content .technologies {
+    text-align: center;
+}
+
+.experience-content h3 {
+    margin-bottom: 8px;
+}
+
+.experience-content h4 {
+    margin-bottom: 5px;
+}
+
+.experience-content .experience-date {
+    margin-bottom: 20px;
+}
+
+.experience-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.experience-content .technologies {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 /*Formatio*/
 .formation {
     padding: 80px 10%;
