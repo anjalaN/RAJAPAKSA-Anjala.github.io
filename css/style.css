@@ -385,6 +385,12 @@ body {
     display: flex;
     gap: 0;
 }
+
+.experience-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0;
+}
 .experience-image,
 .experience-content {
     width: 50%;
