@@ -362,10 +362,11 @@ body {
     margin: 30px 160px 30px 160px;
     background-color: antiquewhite;
     display: flex;
-    flex-direction: row;
+    
 }
 .experience-1{
-    display: inline;
+    display: flex;
+    flex-direction: row;
 }
 
 /*Formatio*/
