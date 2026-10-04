@@ -59,20 +59,22 @@ body {
 
 .language button {
 
+   border: none;
+    background: transparent;
     padding: 8px 12px;
-
-    border: none;
-
     cursor: pointer;
+    font-weight: bold;
 
 }
 
 
 .language .active {
-
-    font-weight: bold;
-
+   background-color: blue;
+    color: white;
+    border-radius: 5px;
 }
+
+
 
 
 /* HERO SECTION */
