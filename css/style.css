@@ -9,6 +9,15 @@
 body {
     font-family: Arial, sans-serif;
     background-color: aliceblue;
+  
+    color: #1E293B;
+}
+h2 {
+    color: #2563EB;
+}
+
+h3 {
+    color: #7C3AED;
 }
 
 
@@ -73,11 +82,7 @@ body {
     color: white;
     border-radius: 5px;
 }
-button{
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-}
+
 
 
 
@@ -253,7 +258,7 @@ button{
     text-align: center;
     font-size: 36px;
     margin-bottom: 50px;
-    color: blue;
+    color: black;
 }
 
 .project-content {
@@ -285,7 +290,7 @@ button{
     text-align: justify;
 }
 .card h3{
-    color: violet;
+    color: blue;
     margin-bottom: 20px;
 }
 
@@ -307,90 +312,45 @@ button{
     display: inline-block;
     margin-top: 10px;
 }
-/* EXPERIENCE SECTION 
+
+
+/* EXPERIENCE SECTION */
 
 .experience-section {
-    padding: 60px 30px;
-    background-color: #fff;
+    padding: 80px 10%;
+    
 }
 
-.experience-section h2 {
+.experience-section h1 {
     text-align: center;
-    margin-bottom: 40px;
-    color: blue;
+    font-size: 36px;
+    margin-bottom: 50px;
 }
+
+/* Container */
 
 .experience-container {
-    display: flex;
-    gap: 25px;
     max-width: 1100px;
     margin: 0 auto;
-    text-align: justify;
 }
 
-.experience-card {
-    flex: 1;
-    padding: 25px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #f8f9fa;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-.experience-card h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    color: blue;
-}
-
-.experience-card h4 {
-    margin-bottom: 8px;
-    text-align: center;
-    color: vviolet;
-}
-
-.experience-date {
-    margin-bottom: 15px;
-    font-weight: bold;
-    text-align: center;
-    color: violet;
-    
-}
-
-.experience-card p {
-    line-height: 1.6;
-}
-
-.technologies {
-    margin-top: 15px;
-    font-weight: bold;
-}*/
-
-.experience-section {
-    margin: 30px 160px;
-    background-color: antiquewhite;
-    display: flex;
-    
-}
+/* Each experience */
 
 .experience-1,
 .experience-2 {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-.experience-1 img,
-.experience-2 img {
-    width: 50%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 8px;
-}
+/* Alternating layout */
 
 .experience-1 {
-    display: flex;
-    gap: 0;
+    flex-direction: row;
 }
 
 .experience-2 {
@@ -398,53 +358,73 @@ button{
     flex-direction: row-reverse;
     gap: 0;
 }
+
+
+/* Image */
+
 .experience-image,
 .experience-content {
     width: 50%;
+    
 }
+
 .experience-image img {
     width: 100%;
-    height: 300px;
+    height: 320px;
     object-fit: cover;
     display: block;
+    border-radius: 50%;
+    
 }
 
-.experience-2 {
-    flex-direction: row;
-    gap: 10px;
-}
+/* Content */
 
 .experience-content {
-    padding: 30px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.experience-content h3,
-.experience-content h4,
-.experience-content .experience-date,
-.experience-content .technologies {
-    text-align: center;
-}
+/* Titles */
 
 .experience-content h3 {
+    text-align: center;
+    color: #2563EB;
     margin-bottom: 8px;
 }
 
 .experience-content h4 {
+    text-align: center;
     margin-bottom: 5px;
 }
 
 .experience-content .experience-date {
+    text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
+    color: #7C3AED;
 }
+
+/* Description */
 
 .experience-content ul {
-    margin-bottom: 20px;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
+.experience-content li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Technologies */
+
 .experience-content .technologies {
-    margin-top: 20px;
+    margin-top: 10px;
+    text-align: center;
     font-weight: bold;
+    color: #2563EB;
 }
 
 /*Formatio*/
@@ -517,7 +497,60 @@ button{
 .certificate{
     font-weight: bold;
 }
-/* CONTACT SECTION */
+/* end formation */
+.certificate-content {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.certificate-content img {
+    width: 700px;
+    height: 450px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+.certificate-content h3 {
+    margin: 20px 0 10px;
+    color: #7C3AED;
+}
+
+.certificate-content p {
+    margin-bottom: 20px;
+}
+
+.certificate-content .btn {
+    display: inline-block;
+}
+
+.certificate-slider {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.slider-btn {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #2563EB;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.slider-btn:hover {
+    background-color: #7C3AED;
+}
+/*end certification*/
 
 .contact-section {
     padding: 80px 10%;
