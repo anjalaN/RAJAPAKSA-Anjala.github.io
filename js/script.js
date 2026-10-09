@@ -29,6 +29,12 @@ const certificates = [
     title: "Bootstraps : la formation ultimate",
     info: "Udemy · 2024",
     link: "#"
+},
+{
+    image: "images/certificate.jpg",
+    title: "Bootstraps : la formation ultimate",
+    info: "Udemy · 2024",
+    link: "#"
 }
 ];
 
